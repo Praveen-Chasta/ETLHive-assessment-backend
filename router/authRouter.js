@@ -12,7 +12,7 @@ router.use(
     cors({
         credentials: true,
         methods: ["POST", "GET", "PUT", "DELETE"],
-        origin: ['https://66ba2d8feded4fc34db33a2c--curious-buttercream-6457f5.netlify.app']
+        origin: ['http://localhost:3000', 'https://66ba2d8feded4fc34db33a2c--curious-buttercream-6457f5.netlify.app']
     })
 );
 
