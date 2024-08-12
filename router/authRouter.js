@@ -11,7 +11,7 @@ const { check } = require('express-validator');
 router.use(
     cors({
         credentials : true,
-        origin : ['https://66b9f76704f2f572d0435959--bespoke-fenglisu-e764f9.netlify.app/']
+        origin : ['https://66ba05271c5cc28cd2094c16--sprightly-custard-74ad0f.netlify.app']
     })
 )
 
