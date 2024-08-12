@@ -10,10 +10,11 @@ const { check } = require('express-validator');
 
 router.use(
     cors({
-        credentials : true,
-        origin : ['http://localhost:3000', 'https://66b9f76704f2f572d0435959--bespoke-fenglisu-e764f9.netlify.app/']
+        credentials: true,
+        methods: ["POST", "GET", "PUT", "DELETE"],
+        origin: ['http://localhost:3000', 'https://66b9f76704f2f572d0435959--bespoke-fenglisu-e764f9.netlify.app']
     })
-)
+);
 
 router.get('/', test);
 router.post('/signup', signup);
